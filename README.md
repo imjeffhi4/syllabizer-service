@@ -18,7 +18,7 @@ docker run -p 8000:8000 syllables
 
 # Using the API
 
-To use the API, make a POST request to “[http://127.0.0.1:8000/](http://127.0.0.1:8000/)” with the string of text you wish to use. The model is primarily trained on single word inputs, but the API automatically splits sentences into individual words if you have longer inputs. Below is an example call
+To use the API, make a POST request to “[http://127.0.0.1:8000/syllables/](http://127.0.0.1:8000/syllables/)” with the string of text you wish to use. The model is primarily trained on single word inputs, but the API automatically splits sentences into individual words if you have longer inputs. Below is an example call
 
 ```python
 txt = 'Syllable generator'
